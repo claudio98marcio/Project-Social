@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100vw;
+    display: block;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(240, 1, 2);
+}
+
+div{
+    position: absolute;
+    backdrop-filter: blur(5px);
+    height: 50px;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+a{
+    position: relative;
+    top: 33%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+a:hover{
+    border: rgba(255, 255, 255, 0.3) 2px solid;
+}
